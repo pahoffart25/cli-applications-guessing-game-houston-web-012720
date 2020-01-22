@@ -2,4 +2,18 @@
 
 require_relative "../guessing_game_cli"
 
-run_guessing_game
+
+def run_guessing_game
+  puts "Guess a number between 1 and 6"
+  comp = rand(1..6)
+  user = gets.chomp.to_i
+  if user == comp
+    puts "You guessed the correct number"
+  elsif user != comp
+    puts "Sorry! the computer guessed #{comp}"
+  elsif user == "exit"
+    puts "Goodbye"
+  else
+    puts "Invalid input"
+end
+end
