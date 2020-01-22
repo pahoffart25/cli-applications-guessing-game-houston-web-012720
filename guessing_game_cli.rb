@@ -26,5 +26,7 @@ end
 
 
 def run_guessing_game
-
+get_number
+get_user_number
+guess_correct
 end
