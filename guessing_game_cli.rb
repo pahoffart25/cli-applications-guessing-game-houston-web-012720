@@ -26,6 +26,7 @@ end
 
 
 def run_guessing_game
+  input = get_user_number
 if input == number
   return "You guessed the correct number!"
 elsif input != number
