@@ -1,5 +1,5 @@
 # Code your solution here!
-
+=begin
 def get_number
   rand(6) +1
 end
@@ -26,4 +26,4 @@ end
 
 def run_guessing_game
 guess_correct
-end
+=end
