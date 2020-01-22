@@ -1,7 +1,7 @@
 # Code your solution here!
-def run_guessing_game
+
 def get_number
-  number = rand(6) +1
+  rand(6) +1
 end
 
 def guess_number
@@ -9,10 +9,12 @@ def guess_number
 end
 
 def get_user_number
-  input =  gets.chomp
+   gets.chomp
 end
 
 def guess_correct
+  input = get_user_number
+  number = get_number
 if input == number
   puts "You guessed the correct number!"
 elsif input != number
@@ -22,6 +24,6 @@ elsif input == "exit"
 end
 end
 
-
+def run_guessing_game
 
 end
