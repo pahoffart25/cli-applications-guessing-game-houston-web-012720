@@ -15,11 +15,11 @@ def guess_correct
   input = get_user_number
   number = get_number
 if input == number
-  puts "You guessed the correct number"
+  puts "You guessed the correct number!"
 elsif input != number
   puts "Sorry! the computer guessed #{number}"
 elsif input == "exit"
-  puts "Goodbye"
+  puts "Goodbye!"
 else
   puts "invalid response"
 end
