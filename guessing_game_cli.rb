@@ -33,9 +33,9 @@ def run_guessing_game
 	roll = 1+rand(6)
 	user_input = gets.chomp.to_s
     if user_input == roll
-    	return "You guessed the correct number!"
+    	puts "You guessed the correct number!"
     elsif user_input != roll
-    	return "The computer guessed #{roll}."
+    	puts "The computer guessed #{roll}."
     elsif user_input == "exit"
       puts "Goodbye!"
     else
