@@ -1,5 +1,5 @@
 # Code your solution here!
-
+def run_guessing_game
 def get_number
   number = rand(6) +1
 end
@@ -23,8 +23,5 @@ end
 end
 
 
-def run_guessing_game
-get_number
-get_user_number
-guess_correct
+
 end
