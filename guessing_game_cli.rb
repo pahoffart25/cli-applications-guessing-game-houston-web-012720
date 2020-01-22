@@ -20,7 +20,7 @@ if input == number
 elsif input == "exit"
   puts "Goodbye!"
 elsif input != number
-  puts "Sorry! the computer guessed #{number}"
+  puts "Sorry! the computer guessed #{number}."
 end
 end
 
