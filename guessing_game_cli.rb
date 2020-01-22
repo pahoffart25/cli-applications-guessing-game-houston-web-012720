@@ -17,10 +17,10 @@ def guess_correct
   number = get_number
 if input == number
   puts "You guessed the correct number!"
-elsif input == "exit"
-  puts "Goodbye!"
 elsif input != number
   puts "Sorry! the computer guessed #{number}."
+elsif input == "exit"
+  puts "Goodbye!"
 end
 end
 
