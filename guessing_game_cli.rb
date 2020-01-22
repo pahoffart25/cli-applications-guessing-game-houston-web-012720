@@ -12,8 +12,8 @@ def get_user_number
 end
 
 def guess_correct
-  input = get_user_number
-  number = get_number
+  input = get_user_number.to_s
+  number = get_number.to_s
 if input == number
   puts "You guessed the correct number!"
 elsif input != number
