@@ -17,7 +17,7 @@ def guess_correct
 if input == number
   puts "You guessed the correct number!"
 elsif input != number
-  print "Sorry! the computer guessed #{number}."
+  puts "Sorry! the computer guessed #{number}."
 elsif input == "exit"
   puts "Goodbye!"
 end
