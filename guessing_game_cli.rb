@@ -35,7 +35,7 @@ elsif input != number
   puts "Sorry! the computer guessed #{number}."
 elsif input == "exit"
   puts "Goodbye!"
-else 
+else
   puts "invalid command"
 end
 end
