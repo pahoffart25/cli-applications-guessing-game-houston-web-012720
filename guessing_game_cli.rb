@@ -1,4 +1,5 @@
 # Code your solution here!
+=begin
 def get_number
   rand(6) +1
 end
@@ -22,11 +23,19 @@ elsif input != number
   puts "Sorry! the computer guessed #{number}"
 end
 end
-
+=end
 
 def run_guessing_game
-get_number
-guess_number
-get_user_number
-guess_correct
+number = rand(6)+1
+puts "please guess a number between 1 and 6"
+input = gets.chomp
+if input == number
+  puts "You guessed the correct number!"
+elsif input != number
+  puts "Sorry! the computer guessed #{number}."
+elsif input == "exit"
+  puts "Goodbye!"
+else 
+  puts "invalid command"
+end
 end
