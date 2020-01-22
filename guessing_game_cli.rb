@@ -26,15 +26,5 @@ end
 
 
 def run_guessing_game
-  input = get_user_number
-  number = get_number
-if input == number
-  return "You guessed the correct number!"
-elsif input != number
-  return "Sorry! the computer guessed #{number}."
-elsif input == "exit"
-  puts "Goodbye!"
-else
-  puts "invalid command"
-end
+
 end
