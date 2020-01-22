@@ -26,8 +26,8 @@ end
 =end
 
 def run_guessing_game
+  puts "please guess a number between 1 and 6"
 number = rand(6)+1
-puts "please guess a number between 1 and 6"
 input = gets.chomp
 if input == number
   puts "You guessed the correct number!"
