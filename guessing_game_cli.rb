@@ -20,8 +20,6 @@ elsif input == "exit"
   puts "Goodbye!"
 elsif input != number
   puts "Sorry! the computer guessed #{number}"
-else
-  puts "invalid response"
 end
 end
 
